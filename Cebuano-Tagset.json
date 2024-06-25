@@ -1,0 +1,901 @@
+{
+"CebuanoTagSet":[
+ {
+  "POS Tag": "NN.*",
+  "Description": "Noun (Pangalan)",
+  "Filipino Example": "Lempos suffix: -n",
+  "Cebuano Example": "Lempos suffix: -n"
+ },
+ {
+  "POS Tag": "NNC",
+  "Description": "Common Noun (count noun)",
+  "Filipino Example": "papel, tao, pag- + verb, kapalit",
+  "Cebuano Example": "papel, tawo, pag- + verb e.g. pag+kao = pagkaon, kapuli"
+ },
+ {
+  "POS Tag": "NNP",
+  "Description": "Proper Noun",
+  "Filipino Example": "Pilipino, Lasaliano",
+  "Cebuano Example": "Pilipino, Bisaya"
+ },
+ {
+  "POS Tag": "NNPA",
+  "Description": "Proper Noun Abbreviation",
+  "Filipino Example": "Dra., Bb., G., Kgg., etc.",
+  "Cebuano Example": "Dra., Bb., G., Kgg., etc."
+ },
+ {
+  "POS Tag": "NNCA",
+  "Description": "Common Noun Abbreviation",
+  "Filipino Example": "in, km, m, cm, measurements, et al, etc.",
+  "Cebuano Example": "in, km, m, cm, measurements, et al, etc."
+ },
+ {
+  "POS Tag": "PR.*",
+  "Description": "Pronoun (Pulingalan)",
+  "Filipino Example": "Lempos suffix: -p",
+  "Cebuano Example": "Lempos suffix: -p"
+ },
+ {
+  "POS Tag": "PRS",
+  "Description": "as Subject (Palagyo)\/Personal Pronouns Singular",
+  "Filipino Example": "ako, ikaw, ka, siya, ko, mo, niya, kita, nya",
+  "Cebuano Example": "ako, ikaw, ka, siya, ko, mo, niya, kita, nya"
+ },
+ {
+  "POS Tag": "PRP",
+  "Description": "Personal Pronouns (Plural)",
+  "Filipino Example": "kami, tayo, kayo, sila, nila, naming, natin, ninyo",
+  "Cebuano Example": "kami, kita, kamo, sila, nila, namong, nato, ninyo"
+ },
+ {
+  "POS Tag": "PRSP",
+  "Description": "Possessive Subject (Paari)",
+  "Filipino Example": "akin, iyo, kanya, amin, atin, inyo, kanila",
+  "Cebuano Example": "akoa, ako, imo, iya, amoa, amo, atoa, ato, inyo, ila, ilaha"
+ },
+ {
+  "POS Tag": "PRO",
+  "Description": "Pointing to an Object Demonstrative\/(Pagtudlo)",
+  "Filipino Example": "ito, iyan, iyon, iri\/e, niyan, niyon\/noon, nito, naroon,",
+  "Cebuano Example": "kani, kana, kato, kadto, kini, to, na, ni, didto, diha, diri, dinhi"
+ },
+ {
+  "Filipino Example": "nariyan, yaon",
+  "Cebuano Example": "tuara"
+ },
+ {
+  "POS Tag": "PRQ",
+  "Description": "Question\/Interrogative (Pananong)\/Singular",
+  "Filipino Example": "sino, saan, alin, ilan, gaano, kanino, magkano",
+  "Cebuano Example": "kinsa, asa, pila, kay, tagpila"
+ },
+ {
+  "POS Tag": "PRQP",
+  "Description": "Question\/Interrogative Plural",
+  "Filipino Example": "sinu-sino, saan-saan, alin-alin, ilan-ilan, gaa-gaano,",
+  "Cebuano Example": "kinsakinsa, unsaunsa"
+ },
+ {
+  "Filipino Example": "kani-kanino, etc."
+ },
+ {
+  "POS Tag": "PRL",
+  "Description": "Location (Panlunan)",
+  "Filipino Example": "dito, doon, diyan, riyan, roon, rito, nandito, etc.",
+  "Cebuano Example": "diri, didto, diha, niana, dinha, dinhi"
+ },
+ {
+  "POS Tag": "PRC",
+  "Description": "Comparison (Panulad)",
+  "Filipino Example": "ganyan, ganito",
+  "Cebuano Example": "ing-ana, ingon-ana, ing-ani, ingon-ani"
+ },
+ {
+  "POS Tag": "PRF",
+  "Description": "Found (Pahimaton)",
+  "Filipino Example": "ayto, heto, hayan, ayon, yun, hayun",
+  "Cebuano Example": "diara, tuara"
+ },
+ {
+  "POS Tag": "PRI",
+  "Description": "Indefinite",
+  "Filipino Example": "kuwan, iba, kapwa, isa, lahat, marami, kaunti,",
+  "Cebuano Example": "kuan, tanan, daghan, lahi, lain, gamay, diyutay, sahi"
+ },
+ {
+  "Filipino Example": "sinuman, alinman, anuman, kalahatan, kabuuan",
+  "Cebuano Example": "maskin+, bisan+, bisag+, maskig+, maski+"
+ },
+ {
+  "POS Tag": "DT.*",
+  "Description": "Determiner (Pantukoy)",
+  "Filipino Example": "Lempos suffix: -d",
+  "Cebuano Example": "Lempos suffix: -d"
+ },
+ {
+  "POS Tag": "DTC",
+  "Description": "for Common Noun",
+  "Filipino Example": "ang",
+  "Cebuano Example": "ang"
+ },
+ {
+  "POS Tag": "DTCP",
+  "Description": "for Common Noun Plural",
+  "Filipino Example": "(ang) mga, (ng) mga",
+  "Cebuano Example": "(ang) mga, (ng) mga"
+ },
+ {
+  "POS Tag": "DTP",
+  "Description": "for Proper Noun",
+  "Filipino Example": "si, ni, kay",
+  "Cebuano Example": "si, ni, kay"
+ },
+ {
+  "POS Tag": "DTPP",
+  "Description": "for Proper Noun Plural",
+  "Filipino Example": "sina, nina, kina",
+  "Cebuano Example": "sila, nila, ila"
+ },
+ {
+  "POS Tag": "CC.*",
+  "Description": "Conjunctions (Pang-ugnay)",
+  "Filipino Example": "Lempos suffix: -c",
+  "Cebuano Example": "Lempos suffix: -c"
+ },
+ {
+  "POS Tag": "CCT",
+  "Filipino Example": "o, saka, ni-, maging, pero, subalit, ngunit, bagkus, kundi, imbes, kahit, halip, maliban, sa, sa pamamagitan ng, bilang, bagamat, datapwat, samantala, habang, para",
+  "Cebuano Example": "o, tapos, pero, imbes, sa, samtang, para, labun, labung, bisan, bisag, maskin, maskig, maski, bilang, adisir, bag-u"
+ },
+ {
+  "POS Tag": "CCR",
+  "Filipino Example": "kaya (tuloy), kaya (nga ba), kaya (ngayon), kasi, dahil sa, dahil kasi, kung dangan kasi, papaano kasi, sapagkat, kasi, dahilan sa, palibhasa",
+  "Cebuano Example": "mao, kay, tungod sa, gud"
+ },
+ {
+  "POS Tag": "CCB",
+  "Filipino Example": "at saka, at gayon din, at…rin, kasama, upang, ng, nanggayundin, palibhasa, sa sandaling, basta’t",
+  "Cebuano Example": "ug, sama sa, uban sa, para, basta, +pud, +sad"
+ },
+ {
+  "POS Tag": "CCA",
+  "Filipino Example": "at, pati",
+  "Cebuano Example": "ug, pati"
+ },
+ {
+  "POS Tag": "CCP",
+  "Description": "Ligatures (Pang-angkop)",
+  "Filipino Example": "na, -ng, -g",
+  "Cebuano Example": "nga, -ng, -g"
+ },
+ {
+  "POS Tag": "CCU",
+  "Description": "Preposition (Pang-ukol)",
+  "Filipino Example": "laban sa, dagdag pa"
+ },
+ {
+  "POS Tag": "LM",
+  "Description": "lexical marker",
+  "Filipino Example": "ay",
+  "Cebuano Example": "kay"
+ },
+ {
+  "POS Tag": "VB.*",
+  "Description": "Verb (Pandiwa)",
+  "Filipino Example": "Lempos suffix: -v",
+  "Cebuano Example": "Lempos suffix: -v"
+ },
+ {
+  "POS Tag": "VBW",
+  "Description": "Neutral\/Infinitive",
+  "Filipino Example": "mag-, ma-, mang-, sana, sabi, ka- + verb, mapag- +verb, makipag- + verb, maging",
+  "Cebuano Example": "mag-, ma-, mang-, unta, ka- + verb, maki- +verb, makipag- + verb, mahimong"
+ },
+ {
+  "POS Tag": "VBS",
+  "Description": "Auxiliary, Modal\/Pseudo-verbs",
+  "Filipino Example": "kailangan, pwede, dapat, maari, gusto, ayaw, ibig, nais",
+  "Cebuano Example": "kinahanglan, puydi, dapat, gusto, ayaw, buot"
+ },
+ {
+  "POS Tag": "VBH",
+  "Description": "Existential",
+  "Filipino Example": "mayroon, meron, may",
+  "Cebuano Example": "naa, aduna, anaa"
+ },
+ {
+  "POS Tag": "VBN",
+  "Description": "Non-existential",
+  "Filipino Example": "wala, ala",
+  "Cebuano Example": "wala, wa"
+ },
+ {
+  "POS Tag": "VBTS",
+  "Description": "Time Past (Perfective)",
+  "Filipino Example": "nahulog, kumain, pinaalis, nag-, naging",
+  "Cebuano Example": "nahulog, nahug, nikaon, gipahawa, nag-, na-"
+ },
+ {
+  "POS Tag": "VBTR",
+  "Description": "Time Present (Imperfective)",
+  "Filipino Example": "nahuhulog, kumakain, pinapaalis, nagiging",
+  "Cebuano Example": "nagakaon, ginapahawa, naga- +verb, ginapa- +verb"
+ },
+ {
+  "POS Tag": "VBTF",
+  "Description": "Time Future (Contemplative)",
+  "Filipino Example": "mahuhulog, kakain, papaalisin, magiging",
+  "Cebuano Example": "mahulog, mukaon, pahawaon, ma- +verb, mu- +verb, pa- + verb -on"
+ },
+ {
+  "POS Tag": "VBTP",
+  "Description": "Recent past",
+  "Filipino Example": "kahuhulog, kakakain, kapapaalis"
+ },
+ {
+  "POS Tag": "VBAF",
+  "Description": "Actor Focus",
+  "Filipino Example": "-um-, mag-, ma-, mang-",
+  "Cebuano Example": "mag-, ma-, mang-"
+ },
+ {
+  "POS Tag": "VBOF",
+  "Description": "Object\/Goal Focus",
+  "Filipino Example": "-in, -an, i-",
+  "Cebuano Example": " -on, -an, i-"
+ },
+ {
+  "POS Tag": "VBOB",
+  "Description": "Benefactive Focus",
+  "Filipino Example": "i-, ipag-",
+  "Cebuano Example": " i-"
+ },
+ {
+  "POS Tag": "VBOL",
+  "Description": "Locative Focus",
+  "Filipino Example": "-an, -in, pag…an",
+  "Cebuano Example": " -an, -on, pag…an"
+ },
+ {
+  "POS Tag": "VBOI",
+  "Description": "Instrumental Focus",
+  "Filipino Example": "ipang-",
+  "Cebuano Example": "ipang-"
+ },
+ {
+  "POS Tag": "VBRF",
+  "Description": "Referential\/Measurement Focus",
+  "Filipino Example": "pinag-",
+  "Cebuano Example": "gipag-"
+ },
+ {
+  "POS Tag": "JJ.*",
+  "Description": "Adjective (Pang-uri)",
+  "Filipino Example": "Lempos suffix: -j"
+ },
+ {
+  "POS Tag": "JJD",
+  "Description": "Describing (Panlarawan)",
+  "Filipino Example": "maganda, mabait, buo, masyado, bawat",
+  "Cebuano Example": "hitsuraan, buotan, tibuok"
+ },
+ {
+  "POS Tag": "JJC",
+  "Description": "Used for Comparison (same level)",
+  "Filipino Example": "sing-, kasing, kapwa, pareho, magsing, magkasing, gangga, ga, tulad ng, gaya ng, kaysa sa",
+  "Cebuano Example": "pareho, sama sa,"
+ },
+ {
+  "Description": "(Pahambing Magkatulad)"
+ },
+ {
+  "POS Tag": "JJCC",
+  "Description": "Comparison Comparative (more)",
+  "Filipino Example": "mas, medyo, higit, lalo, lalong",
+  "Cebuano Example": "mas, medyo, labi na, hilabihang"
+ },
+ {
+  "Description": "(Palamang)"
+ },
+ {
+  "POS Tag": "JJCS",
+  "Description": "Comparison Superlative (most)",
+  "Filipino Example": "pinaka-, ubod, sakdal, ulo, labis, hari",
+  "Cebuano Example": "pinaka-"
+ },
+ {
+  "Description": "(Pasukdol)"
+ },
+ {
+  "POS Tag": "JJCN",
+  "Description": "Comparison Negation (not quite)",
+  "Filipino Example": "di-gasinong, di-gaano",
+  "Cebuano Example": "dyutay"
+ },
+ {
+  "Description": "(Di-Magkatulad)",
+  "Cebuano Example": "dili kaayo"
+ },
+ {
+  "POS Tag": "JJN",
+  "Description": "Describing Number (Pamilang)",
+  "Filipino Example": "tatlong, labinlima",
+  "Cebuano Example": "noun + -ka, tulo ka, lima ka"
+ },
+ {
+  "POS Tag": "RB.*",
+  "Description": "Adverb (Pang-Abay)",
+  "Filipino Example": "Lempos suffix: -a"
+ },
+ {
+  "POS Tag": "RBD",
+  "Description": "Describing “How” (Pamaraan)",
+  "Filipino Example": "mabilis na tumakbo, masayang umuwi, pa + verb,sabay, naka- + verb"
+ },
+ {
+  "POS Tag": "RBN",
+  "Description": "Number (Panggaano\/Panukat)",
+  "Filipino Example": "nang limang libra, + apat na guhit",
+  "Cebuano Example": "lima ka guhit, upat ka guhit, kawhaan ka kilometro"
+ },
+ {
+  "POS Tag": "RBK",
+  "Description": "Conditional (Kondisyunal)",
+  "Filipino Example": "kung, sakali, pagka, kapag, pag",
+  "Cebuano Example": "kung, pag"
+ },
+ {
+  "POS Tag": "RBP",
+  "Description": "Causative (Pananhi)",
+  "Filipino Example": "dahil sa, dahil dito, kaya",
+  "Cebuano Example": "tungod sa, mao nga"
+ },
+ {
+  "POS Tag": "RBB",
+  "Description": "Benefactive (Benepaktibo)",
+  "Filipino Example": "para sa, para kay",
+  "Cebuano Example": "para sa, para kay"
+ },
+ {
+  "POS Tag": "RBR",
+  "Description": "Referential (Pangkaukulan)",
+  "Filipino Example": "tungkol sa, ukol, hinggil, patungkol, ayon sa, ukol sa,hinggil sa, alinsunod sa, sabi ni, wika ni, tanong ni",
+  "Cebuano Example": "mahitungod sa, ingon ni, subay sa, pangutana ni"
+ },
+ {
+  "POS Tag": "RBQ",
+  "Description": "Question (Pananong)",
+  "Filipino Example": "bakit, paano, baga, kaya, gaano",
+  "Cebuano Example": "ngano, unsaon, unsa"
+ },
+ {
+  "POS Tag": "RBT",
+  "Description": "Agree (Panang-ayon)",
+  "Filipino Example": "talaga, oo, tunay, mangyari, opo, oho, siyanga pala,sadya, maaaring, totoo",
+  "Cebuano Example": "lagi, oo, o, tinuod, tama diay"
+ },
+ {
+  "POS Tag": "RBF",
+  "Description": "Disagree (Pananggi)",
+  "Filipino Example": "hindi nga, hinding-hindi, walang, huwag, ewan,aywan, ayaw, malay, wag, ayoko",
+  "Cebuano Example": "dili gani, dili gayud, dili jud, ayaw, ambot"
+ },
+ {
+  "POS Tag": "RBW",
+  "Description": "Frequency (Pamanahon)",
+  "Filipino Example": "tuwing, muli, ngayon, laging, pagkatapos, noon,mamaya, parati, bihira, bago, uli, sandali, minsan,samantala, habang, kapag, buhat, mula ng, umpisa,hanggang, kahapon, kanina, bukas, araw-araw, galing",
+  "Cebuano Example": "kada, usab, karon, pirmi, pagkatapos, sauna, kaniadto, unya, panagsa, bago, sugod, hangtod, ganina, ugma, gikan"
+ },
+ {
+  "POS Tag": "RBM",
+  "Description": "Possibility (Pang-agam)",
+  "Filipino Example": "baka, tila, marahil, yata, siguro, wari, malamang,maaaring",
+  "Cebuano Example": "basin, murag, siguro"
+ },
+ {
+  "POS Tag": "RBL",
+  "Description": "Place (Panlunan)",
+  "Filipino Example": "kina Thelma, nasa, sa + bahay, amin, ilalim, likod,itaas, harap, mula sa, kinaroroonan, tungo sa",
+  "Cebuano Example": "ila, ilalom, ilawom, likod, ibabaw, atubangan, taga, padulong sa"
+ },
+ {
+  "POS Tag": "RBI",
+  "Description": "Enclitics (Paningit)",
+  "Filipino Example": "na, pa, rin, din, man, muna, kaya, naman, sana, yata,ba, nga, daw, raw, kasi, lang, lamang, pala, tuloy",
+  "Cebuano Example": "na, pa, pud, man, kay, diay, lang"
+ },
+ {
+  "POS Tag": "RBJ",
+  "Description": "Interjections (Sambitla)",
+  "Filipino Example": "hoy, aba, ay, aray, naku, ha",
+  "Cebuano Example": "hoy, aguy, ha, atay, giatay, yati"
+ },
+ {
+  "POS Tag": "RBS",
+  "Description": "Social Formula (Pormularyong Panlipunan)",
+  "Filipino Example": "Tao po!, Magandang umaga! Mano po., Salamat po., Pasensya na po., Sori po.",
+  "Cebuano Example": "Ayo, maayong buntag, amin ko, salamat, pasensya na"
+ },
+ {
+  "Description": "Other",
+  "Filipino Example": "Lempos suffix: -x"
+ },
+ {
+  "POS Tag": "CD.*",
+  "Description": "Cardinal Number (Bilang)"
+ },
+ {
+  "POS Tag": "CDB",
+  "Description": "Digit, Rank, Count",
+  "Filipino Example": "1, una, tatlo, II",
+  "Cebuano Example": "una, ikaduha, ikatulo, I"
+ },
+ {
+  "POS Tag": "TS",
+  "Description": "Topicless (Walang Paksa)",
+  "Filipino Example": "Umuulan., Alas dos na., May tao., Ang tapang mo pala."
+ },
+ {
+  "POS Tag": "FW",
+  "Description": "Foreign Words",
+  "Filipino Example": "English, Spanish, Latin",
+  "Cebuano Example": "English, Spanish, Latin"
+ },
+ {
+  "POS Tag": "PM.*",
+  "Description": "Punctuation (Pananda)"
+ },
+ {
+  "POS Tag": "PMP",
+  "Description": "Period",
+  "Filipino Example": "“.”",
+  "Cebuano Example": "“.”"
+ },
+ {
+  "POS Tag": "PME",
+  "Description": "Exclamation Point",
+  "Filipino Example": "“!”",
+  "Cebuano Example": "“!”"
+ },
+ {
+  "POS Tag": "PMQ",
+  "Description": "Question Mark",
+  "Filipino Example": "“?”",
+  "Cebuano Example": "“?”"
+ },
+ {
+  "POS Tag": "PMC",
+  "Description": "Comma",
+  "Filipino Example": "“,”",
+  "Cebuano Example": "“,”"
+ },
+ {
+  "POS Tag": "PMSC",
+  "Description": "Semi-colon",
+  "Filipino Example": "“;”",
+  "Cebuano Example": "“;”"
+ },
+ {
+  "POS Tag": "PMS",
+  "Description": "Symbols",
+  "Filipino Example": "“@, \/, +, *, ( , ), “,’, ~, &, %, $, #, =, -, :”",
+  "Cebuano Example": "“@, \/, +, *, ( , ), “,’, ~, &, %, $, #, =, -, :”"
+ }
+],
+"Sheet2":[
+ {
+  "POS Tag": "NN.*",
+  "Description": "Noun (Pangngalan)",
+  "Example": "Lempos suffix: -n"
+ },
+ {
+  "POS Tag": "NNC",
+  "Description": "Common Noun (count noun)",
+  "Example": "papel, tao, pag- + verb, kapalit"
+ },
+ {
+  "POS Tag": "NNP",
+  "Description": "Proper Noun",
+  "Example": "Pilipino, Lasaliano"
+ },
+ {
+  "POS Tag": "NNPA",
+  "Description": "Proper Noun Abbreviation",
+  "Example": "Dra., Bb., G., Kgg., etc."
+ },
+ {
+  "POS Tag": "NNCA",
+  "Description": "Common Noun Abbreviation",
+  "Example": "in, km, m, cm, measurements, et al, etc."
+ },
+ {
+  "POS Tag": "PR.*",
+  "Description": "Pronoun (Panghalip)",
+  "Example": "Lempos suffix: -p"
+ },
+ {
+  "POS Tag": "PRS",
+  "Description": "as Subject (Palagyo)\/Personal Pronouns Singular",
+  "Example": "ako, ikaw, ka, siya, ko, mo, niya, kita, nya"
+ },
+ {
+  "POS Tag": "PRP",
+  "Description": "Personal Pronouns (Plural)",
+  "Example": "kami, tayo, kayo, sila, nila, naming, natin, ninyo"
+ },
+ {
+  "POS Tag": "PRSP",
+  "Description": "Possessive Subject (Paari)",
+  "Example": "akin, iyo, kanya, amin, atin, inyo, kanila"
+ },
+ {
+  "POS Tag": "PRO",
+  "Description": "Pointing to an Object Demonstrative\/(Paturol\/Pamatlig)",
+  "Example": "ito, iyan, iyon, iri\/e, niyan, niyon\/noon, nito, naroon,"
+ },
+ {
+  "Example": "nariyan, yaon"
+ },
+ {
+  "POS Tag": "PRQ",
+  "Description": "Question\/Interrogative (Pananong)\/Singular",
+  "Example": "sino, saan, alin, ilan, gaano, kanino, magkano"
+ },
+ {
+  "POS Tag": "PRQP",
+  "Description": "Question\/Interrogative Plural",
+  "Example": "sinu-sino, saan-saan, alin-alin, ilan-ilan, gaa-gaano,"
+ },
+ {
+  "Example": "kani-kanino, etc."
+ },
+ {
+  "POS Tag": "PRL",
+  "Description": "Location (Panlunan)",
+  "Example": "dito, doon, diyan, riyan, roon, rito, nandito, etc."
+ },
+ {
+  "POS Tag": "PRC",
+  "Description": "Comparison (Panulad)",
+  "Example": "ganyan, ganito"
+ },
+ {
+  "POS Tag": "PRF",
+  "Description": "Found (Pahimaton)",
+  "Example": "ayto, heto, hayan, ayon, yun, hayun"
+ },
+ {
+  "POS Tag": "PRI",
+  "Description": "Indefinite",
+  "Example": "kuwan, iba, kapwa, isa, lahat, marami, kaunti,"
+ },
+ {
+  "Example": "sinuman, alinman, anuman, kalahatan, kabuuan"
+ },
+ {
+  "POS Tag": "DT.*",
+  "Description": "Determiner (Pantukoy)",
+  "Example": "Lempos suffix: -d"
+ },
+ {
+  "POS Tag": "DTC",
+  "Description": "for Common Noun",
+  "Example": "ang"
+ },
+ {
+  "POS Tag": "DTCP",
+  "Description": "for Common Noun Plural",
+  "Example": "(ang) mga, (ng) mga"
+ },
+ {
+  "POS Tag": "DTP",
+  "Description": "for Proper Noun",
+  "Example": "si, ni, kay"
+ },
+ {
+  "POS Tag": "DTPP",
+  "Description": "for Proper Noun Plural",
+  "Example": "sina, nina, kina"
+ },
+ {
+  "POS Tag": "CC.*",
+  "Description": "Conjunctions (Pang-ugnay)",
+  "Example": "Lempos suffix: -c"
+ },
+ {
+  "POS Tag": "CCT",
+  "Example": "o, saka, ni-, maging, pero, subalit, ngunit, bagkus, kundi, imbes, kahit, halip, maliban, sa, sa pamamagitan ng, bilang, bagamat, datapwat, samantala, habang, para"
+ },
+ {
+  "POS Tag": "CCR",
+  "Example": "kaya (tuloy), kaya (nga ba), kaya (ngayon), kasi, dahil sa, dahil kasi, kung dangan kasi, papaano kasi, sapagkat, kasi, dahilan sa, palibhasa"
+ },
+ {
+  "POS Tag": "CCB",
+  "Example": "at saka, at gayon din, at…rin, kasama, upang, ng, nanggayundin, palibhasa, sa sandaling, basta’t"
+ },
+ {
+  "POS Tag": "CCA",
+  "Example": "at, pati"
+ },
+ {
+  "POS Tag": "CCP",
+  "Description": "Ligatures (Pang-angkop)",
+  "Example": "na, -ng, -g"
+ },
+ {
+  "POS Tag": "CCU",
+  "Description": "Preposition (Pang-ukol)",
+  "Example": "laban sa, dagdag pa"
+ },
+ {
+  "POS Tag": "LM",
+  "Description": "lexical marker",
+  "Example": "ay"
+ },
+ {
+  "POS Tag": "VB.*",
+  "Description": "Verb (Pandiwa)",
+  "Example": "Lempos suffix: -v"
+ },
+ {
+  "POS Tag": "VBW",
+  "Description": "Neutral\/Infinitive",
+  "Example": "mag-, ma-, mang-, sana, sabi, ka- + verb, mapag- +verb, makipag- + verb, maging"
+ },
+ {
+  "POS Tag": "VBS",
+  "Description": "Auxiliary, Modal\/Pseudo-verbs",
+  "Example": "kailangan, pwede, dapat, maari, gusto, ayaw, ibig, nais"
+ },
+ {
+  "POS Tag": "VBH",
+  "Description": "Existential",
+  "Example": "mayroon, meron, may"
+ },
+ {
+  "POS Tag": "VBN",
+  "Description": "Non-existential",
+  "Example": "wala, ala"
+ },
+ {
+  "POS Tag": "VBTS",
+  "Description": "Time Past (Perfective)",
+  "Example": "nahulog, kumain, pinaalis, nag-, naging"
+ },
+ {
+  "POS Tag": "VBTR",
+  "Description": "Time Present (Imperfective)",
+  "Example": "nahuhulog, kumakain, pinapaalis, nagiging"
+ },
+ {
+  "POS Tag": "VBTF",
+  "Description": "Time Future (Contemplative)",
+  "Example": "mahuhulog, kakain, papaalisin, magiging"
+ },
+ {
+  "POS Tag": "VBTP",
+  "Description": "Recent past",
+  "Example": "kahuhulog, kakakain, kapapaalis"
+ },
+ {
+  "POS Tag": "VBAF",
+  "Description": "Actor Focus",
+  "Example": "-um-, mag-, ma-, mang-"
+ },
+ {
+  "POS Tag": "VBOF",
+  "Description": "Object\/Goal Focus",
+  "Example": "-in, -an, i-"
+ },
+ {
+  "POS Tag": "VBOB",
+  "Description": "Benefactive Focus",
+  "Example": "i-, ipag-"
+ },
+ {
+  "POS Tag": "VBOL",
+  "Description": "Locative Focus",
+  "Example": "-an, -in, pag…an"
+ },
+ {
+  "POS Tag": "VBOI",
+  "Description": "Instrumental Focus",
+  "Example": "ipang-"
+ },
+ {
+  "POS Tag": "VBRF",
+  "Description": "Referential\/Measurement Focus",
+  "Example": "pinag-"
+ },
+ {
+  "POS Tag": "JJ.*",
+  "Description": "Adjective (Pang-uri)",
+  "Example": "Lempos suffix: -j"
+ },
+ {
+  "POS Tag": "JJD",
+  "Description": "Describing (Panlarawan)",
+  "Example": "maganda, mabait, buo, masyado, bawat"
+ },
+ {
+  "POS Tag": "JJC",
+  "Description": "Used for Comparison (same level)",
+  "Example": "sing-, kasing, kapwa, pareho, magsing, magkasing, gangga, ga, tulad ng, gaya ng, kaysa sa"
+ },
+ {
+  "Description": "(Pahambing Magkatulad)"
+ },
+ {
+  "POS Tag": "JJCC",
+  "Description": "Comparison Comparative (more)",
+  "Example": "mas, medyo, higit, lalo, lalong"
+ },
+ {
+  "Description": "(Palamang)"
+ },
+ {
+  "POS Tag": "JJCS",
+  "Description": "Comparison Superlative (most)",
+  "Example": "pinaka-, ubod, sakdal, ulo, labis, hari"
+ },
+ {
+  "Description": "(Pasukdol)"
+ },
+ {
+  "POS Tag": "JJCN",
+  "Description": "Comparison Negation (not quite)",
+  "Example": "di-gasinong, di-gaano"
+ },
+ {
+  "Description": "(Di-Magkatulad)"
+ },
+ {
+  "POS Tag": "JJN",
+  "Description": "Describing Number (Pamilang)",
+  "Example": "tatlong, labinlima"
+ },
+ {
+  "POS Tag": "RB.*",
+  "Description": "Adverb (Pang-Abay)",
+  "Example": "Lempos suffix: -a"
+ },
+ {
+  "POS Tag": "RBD",
+  "Description": "Describing “How” (Pamaraan)",
+  "Example": "mabilis na tumakbo, masayang umuwi, pa + verb,sabay, naka- + verb"
+ },
+ {
+  "POS Tag": "RBN",
+  "Description": "Number (Panggaano\/Panukat)",
+  "Example": "nang limang libra, + apat na guhit"
+ },
+ {
+  "POS Tag": "RBK",
+  "Description": "Conditional (Kondisyunal)",
+  "Example": "kung, sakali, pagka, kapag, pag"
+ },
+ {
+  "POS Tag": "RBP",
+  "Description": "Causative (Pananhi)",
+  "Example": "dahil sa, dahil dito, kaya"
+ },
+ {
+  "POS Tag": "RBB",
+  "Description": "Benefactive (Benepaktibo)",
+  "Example": "para sa, para kay"
+ },
+ {
+  "POS Tag": "RBR",
+  "Description": "Referential (Pangkaukulan)",
+  "Example": "tungkol sa, ukol, hinggil, patungkol, ayon sa, ukol sa,hinggil sa, alinsunod sa, sabi ni, wika ni, tanong ni"
+ },
+ {
+  "POS Tag": "RBQ",
+  "Description": "Question (Pananong)",
+  "Example": "bakit, paano, baga, kaya, gaano"
+ },
+ {
+  "POS Tag": "RBT",
+  "Description": "Agree (Panang-ayon)",
+  "Example": "talaga, oo, tunay, mangyari, opo, oho, siyanga pala,sadya, maaaring, totoo"
+ },
+ {
+  "POS Tag": "RBF",
+  "Description": "Disagree (Pananggi)",
+  "Example": "hindi nga, hinding-hindi, walang, huwag, ewan,aywan, ayaw, malay, wag, ayoko"
+ },
+ {
+  "POS Tag": "RBW",
+  "Description": "Frequency (Pamanahon)",
+  "Example": "tuwing, muli, ngayon, laging, pagkatapos, noon,mamaya, parati, bihira, bago, uli, sandali, minsan,samantala, habang, kapag, buhat, mula ng, umpisa,hanggang, kahapon, kanina, bukas, araw-araw, galing"
+ },
+ {
+  "POS Tag": "RBM",
+  "Description": "Possibility (Pang-agam)",
+  "Example": "baka, tila, marahil, yata, siguro, wari, malamang,maaaring"
+ },
+ {
+  "POS Tag": "RBL",
+  "Description": "Place (Panlunan)",
+  "Example": "kina Thelma, nasa, sa + bahay, amin, ilalim, likod,itaas, harap, mula sa, kinaroroonan, tungo sa"
+ },
+ {
+  "POS Tag": "RBI",
+  "Description": "Enclitics (Paningit)",
+  "Example": "na, pa, rin, din, man, muna, kaya, naman, sana, yata,ba, nga, daw, raw, kasi, lang, lamang, pala, tuloy"
+ },
+ {
+  "POS Tag": "RBJ",
+  "Description": "Interjections (Sambitla)",
+  "Example": "hoy, aba, ay, aray, naku, ha"
+ },
+ {
+  "POS Tag": "RBS",
+  "Description": "Social Formula (Pormularyong Panlipunan)",
+  "Example": "Tao po!, Magandang umaga! Mano po., Salamat po., Pasensya na po., Sori po."
+ },
+ {
+  "Description": "Other",
+  "Example": "Lempos suffix: -x"
+ },
+ {
+  "POS Tag": "CD.*",
+  "Description": "Cardinal Number (Bilang)"
+ },
+ {
+  "POS Tag": "CDB",
+  "Description": "Digit, Rank, Count",
+  "Example": "1, una, tatlo, II"
+ },
+ {
+  "POS Tag": "TS",
+  "Description": "Topicless (Walang Paksa)",
+  "Example": "Umuulan., Alas dos na., May tao., Ang tapang mo pala."
+ },
+ {
+  "POS Tag": "FW",
+  "Description": "Foreign Words",
+  "Example": "English, Spanish, Latin"
+ },
+ {
+  "POS Tag": "PM.*",
+  "Description": "Punctuation (Pananda)"
+ },
+ {
+  "POS Tag": "PMP",
+  "Description": "Period",
+  "Example": "“.”"
+ },
+ {
+  "POS Tag": "PME",
+  "Description": "Exclamation Point",
+  "Example": "“!”"
+ },
+ {
+  "POS Tag": "PMQ",
+  "Description": "Question Mark",
+  "Example": "“?”"
+ },
+ {
+  "POS Tag": "PMC",
+  "Description": "Comma",
+  "Example": "“,”"
+ },
+ {
+  "POS Tag": "PMSC",
+  "Description": "Semi-colon",
+  "Example": "“;”"
+ },
+ {
+  "POS Tag": "PMS",
+  "Description": "Symbols",
+  "Example": "“@, \/, +, *, ( , ), “,’, ~, &, %, $, #, =, -, :”"
+ },
+ null,
+ {
+  "POS Tag": "Main differences to default MGNN tagset"
+ }
+]
+}
